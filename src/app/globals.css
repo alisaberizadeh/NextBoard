@@ -3,4 +3,7 @@
   themes: all
 }
  
- 
+ .myContainer {
+  width: 95%;
+  margin: auto;
+ }

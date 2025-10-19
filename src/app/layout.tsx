@@ -18,10 +18,12 @@ export default function RootLayout({
       <body className="bg-base-200" >
         <div className="drawer lg:drawer-open">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-          <div className="drawer-content flex flex-col items-center">
+          <div className="drawer-content">
             <Navbar />
 
-            {children}
+            <div className="myContainer py-7 ">
+              {children}
+            </div>
 
           </div>
           <SideBar />

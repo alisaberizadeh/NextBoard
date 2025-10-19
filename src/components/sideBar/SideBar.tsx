@@ -5,7 +5,7 @@ import { BiAlignLeft, BiPaintRoll, BiSolidBarChartAlt2, BiSolidGridAlt, BiSolidH
 function SideBar() {
   return (
     
-    <div className="drawer-side border-r border-base-200">
+    <div className="drawer-side border-r border-base-300">
             <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
             <ul className="menu bg-base-100 min-h-full bg w-72 px-5 py-10">
               <p className="flex items-center text-3xl font-bold mb-5"><img src="/images/logo.png" alt="Nova Panel" className="w-12 mr-2" />  NextBoard</p>
