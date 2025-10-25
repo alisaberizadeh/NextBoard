@@ -19,8 +19,7 @@ export default function UsedDevices() {
 
   return (
     <div className="bg-base-100 rounded-2xl shadow-md p-6 w-full h-full">
-      {/* Header */}
-      <div className="flex justify-between items-center mb-4">
+       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-semibold">Used Devices</h2>
         <select
           value={sortBy}
@@ -32,8 +31,7 @@ export default function UsedDevices() {
         </select>
       </div>
 
-      {/* Donut Chart */}
-      <div className="w-full h-96 relative ">
+       <div className="w-full h-96 relative ">
         <ResponsiveContainer width="100%" height="100%">
           <PieChart>
             <Pie
@@ -52,15 +50,13 @@ export default function UsedDevices() {
           </PieChart>
         </ResponsiveContainer>
 
-        {/* Center Label */}
-        <div className="absolute top-1/2 left-1/2 text-center -translate-x-1/2 -translate-y-1/2">
+         <div className="absolute top-1/2 left-1/2 text-center -translate-x-1/2 -translate-y-1/2">
           <p className="  text-sm">Visitors</p>
           <p className="text-3xl font-bold  ">167</p>
         </div>
       </div>
 
-      {/* Legend */}
-      <div className="flex flex-wrap justify-center gap-6 mt-4">
+       <div className="flex flex-wrap justify-center gap-6 mt-4">
         {data.map((item, index) => (
           <div key={index} className="flex items-center gap-2">
             <span

@@ -5,7 +5,7 @@ export default function MembersTable() {
 
     return (
         <div className="bg-base-100 rounded-2xl shadow-md p-6 w-full h-full">
-            {/* Header */}
+
             <div className="flex justify-between items-center mb-4">
                 <h2 className="text-lg font-semibold">  Team Members Overview</h2>
             </div>
@@ -13,7 +13,7 @@ export default function MembersTable() {
             <div className="w-full h-full  ">
                 <div className="overflow-x-auto">
                     <table className="table">
-                        {/* head */}
+
                         <thead>
                             <tr>
                                 <th>
@@ -28,7 +28,7 @@ export default function MembersTable() {
                             </tr>
                         </thead>
                         <tbody>
-                            {/* row 1 */}
+
                             <tr>
                                 <th>
                                     <label>
@@ -60,7 +60,7 @@ export default function MembersTable() {
                                     <button className="btn btn-ghost btn-xs">details</button>
                                 </th>
                             </tr>
-                            {/* row 2 */}
+
                             <tr>
                                 <th>
                                     <label>
@@ -92,7 +92,7 @@ export default function MembersTable() {
                                     <button className="btn btn-ghost btn-xs">details</button>
                                 </th>
                             </tr>
-                            {/* row 3 */}
+
                             <tr>
                                 <th>
                                     <label>
@@ -124,7 +124,7 @@ export default function MembersTable() {
                                     <button className="btn btn-ghost btn-xs">details</button>
                                 </th>
                             </tr>
-                            {/* row 4 */}
+
                             <tr>
                                 <th>
                                     <label>
@@ -156,7 +156,7 @@ export default function MembersTable() {
                                     <button className="btn btn-ghost btn-xs">details</button>
                                 </th>
                             </tr>
-                            {/* row 4 */}
+
                             <tr>
                                 <th>
                                     <label>
@@ -188,7 +188,7 @@ export default function MembersTable() {
                                     <button className="btn btn-ghost btn-xs">details</button>
                                 </th>
                             </tr>
-                            {/* row 4 */}
+
                             <tr>
                                 <th>
                                     <label>

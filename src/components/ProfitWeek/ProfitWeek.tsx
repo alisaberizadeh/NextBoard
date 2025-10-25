@@ -19,8 +19,7 @@ export default function WeeklyStackedBarChart() {
 
     return (
         <div className="bg-base-100 rounded-2xl shadow-md p-6 w-full">
-            {/* Header */}
-            <div className="flex justify-between items-center mb-4">
+             <div className="flex justify-between items-center mb-4">
                 <h2 className="text-lg font-semibold"> Weekly Profit</h2>
                 <div className="flex items-center gap-2">
                     <span className="text-sm">SHORT BY:</span>
@@ -35,8 +34,7 @@ export default function WeeklyStackedBarChart() {
                 </div>
             </div>
 
-            {/* Chart */}
-            <div className="w-full h-96">
+             <div className="w-full h-96">
                 <ResponsiveContainer width="100%" height="100%">
                     <BarChart
                         data={data}
@@ -47,8 +45,7 @@ export default function WeeklyStackedBarChart() {
                         <YAxis axisLine={false} tickLine={false} />
                         <Tooltip cursor={false} />
                         <Legend />
-                        {/* Set a smaller bar size */}
-                        <Bar dataKey="sales" stackId="a" fill="#6366F1" name="Sales" barSize={20} />
+                         <Bar dataKey="sales" stackId="a" fill="#6366F1" name="Sales" barSize={20} />
                         <Bar dataKey="revenue" stackId="a" fill="#F59E0B" name="Revenue" barSize={20}  radius={[5, 5, 0, 0]} />
                     </BarChart>
 

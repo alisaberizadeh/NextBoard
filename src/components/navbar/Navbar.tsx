@@ -1,21 +1,18 @@
-"use client"
 import Link from 'next/link'
 import React from 'react'
 import { BiBell, BiMenu, BiMoon, BiSun } from 'react-icons/bi'
 import { CiLogout, CiSearch, CiSettings, CiUser } from 'react-icons/ci'
 import { FaCheck } from 'react-icons/fa'
-import { usePathname } from "next/navigation";
 
 
 function Navbar() {
-  const pathname = usePathname(); 
-  const cleanPath = pathname.startsWith("/") ? pathname.slice(1) : pathname; 
+
   
   return (
 
     <div className="navbar bg-base-100 shadow-sm sticky top-0  px-5 z-50">
       <div className="flex-1">
-        <a className=" text-xl">{cleanPath ? cleanPath : "Dashboard"}</a>
+        <a className=" text-xl">Dashboard</a>
       </div>
 
       <div className="flex gap-2">
@@ -80,8 +77,8 @@ function Navbar() {
           <ul
             tabIndex={-1}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-5 w-52 p-2 shadow">
-            <li><Link href="" className="py-2 rounded-lg"><CiUser className="text-[18px]" /> Profile</Link></li>
-            <li><Link href="" className="py-2 rounded-lg"><CiSettings className="text-[18px]" /> Setting</Link></li>
+            <li><Link href="/profile" className="py-2 rounded-lg"><CiUser className="text-[18px]" /> Profile</Link></li>
+            <li><Link href="/setting" className="py-2 rounded-lg"><CiSettings className="text-[18px]" /> Setting</Link></li>
             <li><Link href="" className="py-2 rounded-lg"><CiLogout className="text-[18px]" /> Log Out</Link></li>
           </ul>
         </div>

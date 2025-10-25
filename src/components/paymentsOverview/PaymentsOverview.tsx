@@ -23,7 +23,7 @@ export default function PaymentsOverview() {
 
   return (
     <div className="bg-base-100 rounded-2xl shadow-md p-6 w-full">
-      {/* Header */}
+
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-semibold">Payments Overview</h2>
         <div className="flex items-center gap-2">
@@ -40,7 +40,7 @@ export default function PaymentsOverview() {
         </div>
       </div>
 
-      {/* Chart */}
+
       <div className="w-full h-96">
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart data={data} margin={{ top: 20, right: 0, bottom: 20, left: 0 }}>

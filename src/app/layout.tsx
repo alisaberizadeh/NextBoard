@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import SideBar from "@/components/sideBar/SideBar";
 import Navbar from "@/components/navbar/Navbar";
+import MainLayout from "@/components/mainLayout/MainLayout";
 
 export const metadata: Metadata = {
   title: "NextBoard",
@@ -14,20 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="light">
+    <html lang="en">
       <body className="bg-base-200" >
-        <div className="drawer lg:drawer-open">
-          <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-          <div className="drawer-content">
-            <Navbar  />
+        <MainLayout>
+          {children}
 
-            <div className="myContainer py-7 ">
-              {children}
-            </div>
-
-          </div>
-          <SideBar />
-        </div>
+        </MainLayout>
       </body>
     </html>
   );

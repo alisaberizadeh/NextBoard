@@ -1,10 +1,17 @@
+import Link from 'next/link'
 import React from 'react'
 import { BiDownload, BiEdit, BiTrash } from 'react-icons/bi'
 
 function Page() {
   return (
     <div>
-      <div className="bg-base-100 rounded-2xl shadow-md p-6 w-full h-full">
+      <div className="breadcrumbs text-sm">
+        <ul>
+          <li><Link href="/">Dashboard</Link></li>
+          <li><Link href="">Tables</Link></li>
+        </ul>
+      </div>
+      <div className="bg-base-100 rounded-2xl shadow-md p-6 w-full h-full mt-5">
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-lg font-semibold">  Table with visual elements</h2>
