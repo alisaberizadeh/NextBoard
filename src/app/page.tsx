@@ -1,6 +1,8 @@
+import MembersTable from "@/components/membersTable/MembersTable";
 import PaymentsOverview from "@/components/paymentsOverview/PaymentsOverview";
 import ProfitWeek from "@/components/ProfitWeek/ProfitWeek";
 import StatisticsItem from "@/components/statisticsItem/StatisticsItem";
+import UsedDevices from "@/components/usedDevices/UsedDevices";
 import { BiSolidDollarCircle } from "react-icons/bi";
 import { FaBoxOpen, FaUsers } from "react-icons/fa";
 import { IoEye } from "react-icons/io5";
@@ -47,6 +49,10 @@ export default function Home() {
       <div className="w-full grid xl:grid-cols-12 grid-cols-1 gap-10 mt-10">
         <div className="col-span-1 xl:col-span-7"> <PaymentsOverview /></div>
         <div className="col-span-1 xl:col-span-5"> <ProfitWeek /></div>
+      </div>
+      <div className="w-full grid xl:grid-cols-12 grid-cols-1 gap-10 mt-10 h">
+        <div className="col-span-1 xl:col-span-5"> <UsedDevices /></div>
+        <div className="col-span-1 xl:col-span-7"> <MembersTable /></div>
       </div>
     </>
   );

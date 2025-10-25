@@ -48,8 +48,8 @@ export default function WeeklyStackedBarChart() {
                         <Tooltip cursor={false} />
                         <Legend />
                         {/* Set a smaller bar size */}
-                        <Bar dataKey="sales" stackId="a" fill="#00BFFF" name="Sales" barSize={20} />
-                        <Bar dataKey="revenue" stackId="a" fill="#7B68EE" name="Revenue" barSize={20} />
+                        <Bar dataKey="sales" stackId="a" fill="#6366F1" name="Sales" barSize={20} />
+                        <Bar dataKey="revenue" stackId="a" fill="#F59E0B" name="Revenue" barSize={20}  radius={[5, 5, 0, 0]} />
                     </BarChart>
 
                 </ResponsiveContainer>
