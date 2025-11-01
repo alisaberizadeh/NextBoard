@@ -268,7 +268,7 @@ function Page() {
                   <th>8</th>
                   <td>Sammy Seston</td>
                   <td>Accountant I</td>
-                  <td>O'Hara, Welch and Keebler</td>
+                  <td>O&apos;Hara, Welch and Keebler</td>
                   <td>Indonesia</td>
                   <td>5/23/2020</td>
                   <td>Crimson</td>

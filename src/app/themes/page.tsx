@@ -3,7 +3,7 @@ import { ThemeContext } from '@/context/ThemeContext'
 import Link from 'next/link'
 import React, { useContext } from 'react'
 
-function page() {
+function Page() {
     const {toggleTheme , theme} = useContext(ThemeContext)
     return (
         <div>
@@ -68,4 +68,4 @@ function page() {
     )
 }
 
-export default page
+export default Page

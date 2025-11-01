@@ -150,7 +150,7 @@ function Page() {
                         <div className='w-full px-5 mt-6'>
                             <label className='w-full block  text-sm'>  Disabled </label>
                             <select className="select  border-base-300  mt-3 w-full" disabled={true}>
-                                <option>You can't touch this</option>
+                                <option>You can&apos;t touch this</option>
                             </select>
                         </div>
 

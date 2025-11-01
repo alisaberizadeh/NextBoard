@@ -102,11 +102,11 @@ function Page() {
                         </div>
                         <div className="chat chat-start">
                             <div className="chat-bubble chat-bubble-accent">
-                                That's never been done in the history of the Jedi.
+                                That&apos;s never been done in the history of the Jedi.
                             </div>
                         </div>
                         <div className="chat chat-start">
-                            <div className="chat-bubble chat-bubble-neutral">It's insulting!</div>
+                            <div className="chat-bubble chat-bubble-neutral">It&apos;s insulting!</div>
                         </div>
                         <div className="chat chat-end">
                             <div className="chat-bubble chat-bubble-info">Calm down, Anakin.</div>
@@ -118,7 +118,7 @@ function Page() {
                             <div className="chat-bubble chat-bubble-warning">To be on the Council at your age.</div>
                         </div>
                         <div className="chat chat-end">
-                            <div className="chat-bubble chat-bubble-error">It's never happened before.</div>
+                            <div className="chat-bubble chat-bubble-error">It&apos;s never happened before.</div>
                         </div>
 
                     </div>
